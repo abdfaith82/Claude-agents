@@ -136,7 +136,7 @@ class Orchestrator(
                     log("🖼️ تم وصف الصور بواسطة ${d.second}")
                 } else log("⚠️ تعذّر تحليل الصور؛ سيُكمل الفريق بدونها")
             } else {
-                log("⚠️ لا يوجد وكيل رؤية (Claude أو Gemini) فارتباط الصور مهمل؛ أضف وكيل Gemini مجاناً لتحليلها")
+                log("⚠️ لا يوجد وكيل رؤية (Claude أو Gemini) فارتباط الصور مهمل؛ أضف وكيل Gemini مجانياً لتحليلها")
             }
         }
         attachCtx = bundle.toContext()
