@@ -1,4 +1,9 @@
-__pycache__/
-*.pyc
-.env
-.venv/
+build/
+/build
+.gradle/
+local.properties
+*.apk
+*.aab
+.idea/
+.kotlin/
+*.iml
